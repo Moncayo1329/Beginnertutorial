@@ -8,16 +8,12 @@ function Header (){
     
       <header>
     
-    <nav className="Nav"> 
+    <nav> 
     <img src={logo} className="nav-logo" alt="Logo" />
           <h1>Fun facts about React</h1>
-          <ul className="Nav-Items">
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-    
-    
-          </ul>
+         
+        <h3>React Project 1</h3>
+        
           
            </nav>
     </header>

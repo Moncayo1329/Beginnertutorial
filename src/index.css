@@ -1,11 +1,45 @@
+* {
 
-.Nav{
-
-display: flex;
-justify-content: space-between;
-align-items: center;
+box-sizing: border-box;
 
 }
+
+body{
+
+margin: 0;
+font-family: sans-serif;
+background-color: #282d35;
+
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+  }
+
+
+nav > h3, nav > h4 {
+
+margin: 0;
+
+}
+
+
+
+nav > h3 {
+
+margin-right: auto;
+color: #61DAFB; 
+
+
+
+
+}
+
 
 .nav-logo {
 
@@ -15,20 +49,49 @@ align-items: center;
 }
 
 
+h1{
+  color: #61DAFB;
+}
 
-.Nav-Items{
+h3{
 
-list-style: none;
-display: flex;
+position: relative;
+left: 800px;
+
+}
+
+
+main{
+
+padding: 57px 27px;
+color: white;
+
+}
+
+.Facts{
+margin-top: 46px;
+max-width: 400px;
+position: absolute;
+left: 470px;
+
+}
+
+
+.Facts > li {
+
+line-height: 19px;
+padding-block: 10px;
+
 
 
 }
 
 
-.Nav-Items > li{
+.Facts > li::marker {
 
- padding: 10px;
-  
-  
-  }
+font-size: 1.4rem;
+color: #61DAFB;
 
+
+
+}

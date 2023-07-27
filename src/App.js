@@ -5,9 +5,6 @@ import Footer from './Footer';
 import MainContent from './MainContent';
 
 
-
-
-
 function App() {
   return (
     
@@ -17,7 +14,6 @@ function App() {
 
 <MainContent />
 
-<Footer />
 
     </div>
   );

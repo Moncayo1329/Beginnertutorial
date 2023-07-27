@@ -3,7 +3,9 @@ function MainContent() {
 
     return (
        <div>
-      <ol>
+
+<main>
+      <ul className="Facts">
 
       <li>Was first released in 2013</li>
       <li>Was originally created by Jordan Walke</li>
@@ -13,7 +15,9 @@ function MainContent() {
       
       
       
-          </ol>
+          </ul>
+       </main>
+
           </div>
       )
     }
